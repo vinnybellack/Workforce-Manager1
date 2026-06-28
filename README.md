@@ -1,6 +1,6 @@
 # Workforce Manager
 
-Healthcare Workforce Management & Intelligence Platform
+Workforce Management & Intelligence Platform
 
 ## Overview
 
