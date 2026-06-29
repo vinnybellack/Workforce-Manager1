@@ -1,0 +1,126 @@
+Option 1 — Workforce AI Assistant (Highest Value)
+
+Add a floating AI button on every page.
+
+Users can ask:
+
+"Which shifts are currently unfilled?"
+"Show staff with overtime above 40 hours this month."
+"Who has not submitted timesheets?"
+"Create payroll for last week's completed shifts."
+"Which clients have the highest staffing shortages?"
+
+The AI converts natural language into database queries and returns results.
+
+Value: Very high
+Difficulty: Medium
+
+Option 2 — AI Shift Allocation Assistant
+
+This would be unique for healthcare staffing.
+
+Example:
+
+"I need 5 nurses for Night Shift tomorrow at Hospital A."
+
+AI automatically:
+
+Finds available staff
+Checks qualifications
+Checks leave conflicts
+Checks overtime limits
+Suggests the best matches
+
+Manager simply clicks Assign.
+
+Value: Extremely high
+Difficulty: Medium-High
+
+Option 3 — AI Payroll Auditor
+
+Before payroll is processed:
+
+AI scans:
+
+Missing clock-ins
+Duplicate shifts
+Excessive overtime
+Payroll anomalies
+Missing approvals
+
+Then generates:
+
+"3 shifts require review before payroll processing."
+
+Value: High
+Difficulty: Medium
+
+Option 4 — AI Dashboard Insights
+
+Instead of charts only:
+
+AI writes executive summaries:
+
+"Staffing coverage improved by 12% this week."
+
+"Emergency Department night shifts remain understaffed."
+
+"Payroll costs increased by ₹85,000 compared to last week."
+
+This makes the platform feel much more enterprise-grade.
+
+Value: High
+Difficulty: Easy-Medium
+
+Option 5 — AI Chat for Staff
+
+Staff can ask:
+
+"How many shifts do I have next week?"
+"How much am I expected to earn this month?"
+"How many leave days remain?"
+"Show my completed timesheets."
+
+AI answers instantly from their own data.
+
+Value: High
+Difficulty: Medium
+
+Option 6 — AI Document Generator
+
+Generate:
+
+Invoices
+Payroll summaries
+Client staffing reports
+Monthly performance reports
+
+Prompt:
+
+"Generate April staffing report for Hospital A."
+
+AI produces a downloadable PDF.
+
+Value: Medium-High
+Difficulty: Easy
+
+
+server
+│   .env
+│   index.js
+│
+├───lib
+│       supabase.js
+│
+├───routes
+│       ai.js
+│
+├───services
+│       ai.js
+│
+└───tools
+        leave.js
+        payroll.js
+        shifts.js
+        staff.js
+        timesheets.js
