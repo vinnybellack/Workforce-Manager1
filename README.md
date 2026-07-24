@@ -1,263 +1,119 @@
 # Workforce Manager
+## Version
 
-> **Enterprise Workforce Management & Intelligence Platform for Healthcare Organizations**
+Initial Project Setup
+Healthcare Workforce Management & Intelligence Platform
 
 ## Overview
 
-**Workforce Manager** is an enterprise-grade Software-as-a-Service (SaaS) platform designed for healthcare providers, hospitals, care homes, and staffing agencies to efficiently manage their workforce operations.
+Workforce Manager is an enterprise SaaS platform designed for healthcare organizations, hospitals, care homes, and staffing agencies.
 
-The platform streamlines the entire workforce lifecycle—from staff onboarding and shift planning to attendance tracking, timesheet approvals, payroll preparation, invoicing, and AI-driven workforce intelligence.
+The platform provides workforce planning, rota scheduling, attendance monitoring, timesheet approvals, leave management, payroll preparation, invoice generation, and workforce intelligence.
+<img width="1915" height="938" alt="image" src="https://github.com/user-attachments/assets/3b05ad32-30f8-40f2-bda4-aec81afbb80b" />
+
+---
+# Mercy Workforce Manager
+
+## 🚀 Live AI Operator Demo
+
+> **Try the interactive AI Operator prototype**
+
+[![Launch Demo](https://img.shields.io/badge/🚀-Launch%20Demo-blue?style=for-the-badge)](https://vinnybellack.github.io/workforce-manager/)
+## AI Operator Prototype
+
+👉 [Launch Mercy AI Operator Prototype](./Mercy_AI_Executive_Glassmorphism.html)
+
+<img width="1907" height="917" alt="image" src="https://github.com/user-attachments/assets/c4a3bf63-0106-4b1e-8476-e7073398050a" />
+👉 **[🚀 Open Live Interactive Demo](https://vinnybellack.github.io/workforce-manager/docs/Mercy_AI_Executive_Glassmorphism.html)**
+## Core Modules
+
+### Dashboard
+
+Operational KPIs and workforce insights.
+
+### Staff Directory
+
+Staff records, compliance tracking and workforce management.
+
+### Shift Management
+
+Shift creation, assignment and scheduling.
+
+### Attendance Logs
+
+Real-time attendance monitoring and exception tracking.
+
+### Timesheets
+
+Approval workflow, payroll preparation and audit trail.
+
+### Leave Management
+
+Annual leave, sick leave and approval workflows.
+
+### Finance & Invoicing
+
+Payroll calculations, invoice generation and payment tracking.
+
+### Settings & Administration
+
+Departments, roles, permissions and system configuration.
 
 ---
 
-# Core Modules
+## Technology Stack
 
-### 📊 Dashboard
-
-* Workforce KPIs
-* Operational insights
-* Staffing trends
-* Live workforce overview
-
-### 👥 Staff Directory
-
-* Staff profiles
-* Compliance tracking
-* Qualifications & certifications
-* Employment records
-
-### 📅 Shift Management
-
-* Shift creation & scheduling
-* Staff allocation
-* Shift publishing
-* Conflict detection
-
-### ⏱ Attendance Management
-
-* Real-time attendance
-* Clock-in/Clock-out tracking
-* Late arrivals & exceptions
-* Attendance audit logs
-
-### 📝 Timesheets
-
-* Timesheet submission
-* Multi-level approval workflow
-* Payroll preparation
-* Audit history
-
-### 🌴 Leave Management
-
-* Annual leave
-* Sick leave
-* Leave approvals
-* Leave calendar
-
-### 💰 Finance & Invoicing
-
-* Payroll calculations
-* Invoice generation
-* Payment tracking
-* Financial reporting
-
-### ⚙ Settings & Administration
-
-* Departments
-* Roles & permissions
-* Rate cards
-* System configuration
-
----
-
-# Technology Stack
-
-## Frontend
+### Frontend
 
 * React
-* JavaScript (ES6+)
+* JavaScript
 * React Router
-* CSS3
+* CSS
 
-## Backend
+### Backend
 
 * Node.js
 * Express.js
-* REST APIs
 
-## Database
+### Database
 
 * Supabase
 * PostgreSQL
 
-## AI & Intelligence
+### AI Layer
 
 * Orion Workforce Intelligence
 * Google Gemini AI
-* AI-assisted workforce analytics
-* Predictive staffing insights
 
 ---
 
-# Current Project Status
+## Current Status
 
-## ✅ Completed
+### Completed Modules
 
 * Dashboard
-* Staff Directory
+* Staff Management
 * Shift Management
-* Attendance Management
+* Attendance
 * Timesheets
 * Leave Management
-* Finance Module
-* Settings & Administration
+* Finance
+* Settings
 
-## 🚧 In Progress
+### In Progress
 
-* Automated Invoice Processing
-* Advanced Workforce Reporting
-* Orion AI Workforce Analytics
-* Intelligent Scheduling Recommendations
-
----
-
-# System Workflow
-
-```text
-Staff Directory
-        │
-        ▼
-Shift Planning
-        │
-        ▼
-Attendance Tracking
-        │
-        ▼
-Timesheet Approval
-        │
-        ▼
-Payroll Processing
-        │
-        ▼
-Invoice Generation
-        │
-        ▼
-Reporting & Analytics
-```
+* Invoice Automation
+* Advanced Reporting
+* Orion AI Analytics
 
 ---
 
-# Project Architecture
+## Architecture
 
-```text
-                    Workforce Manager
-
-                           │
-          ┌────────────────┼────────────────┐
-          │                │                │
-          ▼                ▼                ▼
-
-   Staff Management   Shift Management   Finance
-
-          │                │                │
-          └────────────┬───┴───────────────┘
-                       ▼
-
-                Attendance Engine
-                       │
-                       ▼
-
-              Timesheet Processing
-                       │
-                       ▼
-
-               Payroll Preparation
-                       │
-                       ▼
-
-                Invoice Generation
-                       │
-                       ▼
-
-            Workforce Intelligence
-```
+Staff → Shifts → Attendance → Timesheets → Payroll → Invoices
 
 ---
 
-# AI Roadmap (Future Enhancements)
+## License
 
-The long-term vision is to evolve Workforce Manager into an **Agentic AI Workforce Platform**, where specialized AI agents collaborate to automate workforce operations while keeping humans in control of critical decisions.
-
-## Technologies to Explore
-
-* **LangGraph** — Durable workflow orchestration and state management for long-running AI workflows.
-* **OpenAI Agents SDK** — Agent orchestration with handoffs, guardrails, memory, and tracing.
-* **CrewAI** — Multi-agent collaboration for specialized workforce tasks.
-* **Browser Use** — Browser automation for interacting with third-party workforce systems.
-* **ChatDev** — Multi-agent software collaboration patterns.
-* **Agentic Playground** — Experimentation and deployment of production-ready AI agents.
-
----
-
-# Future Agentic Architecture
-
-```text
-                    Hospital Administrator
-                             │
-                             ▼
-                  Workforce Planning Agent
-                             │
-        ┌────────────┬────────────┬────────────┐
-        ▼            ▼            ▼            ▼
-  Roster Agent   Staff Agent  Payroll Agent  Leave Agent
-        │            │            │            │
-        └────────────┴──────┬─────┴────────────┘
-                             ▼
-                  Compliance Validation Agent
-                             │
-                             ▼
-                  Notification & Communication Agent
-                             │
-                             ▼
-                     Human Approval Workflow
-                             │
-                             ▼
-                      Shift Publication Engine
-```
-
----
-
-# Key Features
-
-* Enterprise SaaS Architecture
-* Healthcare Workforce Management
-* Multi-role Access Control
-* Real-time Workforce Visibility
-* Attendance Monitoring
-* Payroll Preparation
-* Invoice Management
-* Compliance Tracking
-* AI-powered Workforce Intelligence
-* Scalable & Modular Design
-
----
-
-# Future Vision
-
-The platform aims to become an AI-powered workforce management ecosystem capable of:
-
-* Intelligent shift planning
-* Predictive staffing recommendations
-* Automated compliance validation
-* AI-assisted payroll verification
-* Workforce forecasting and analytics
-* Natural language workforce interactions
-* Autonomous multi-agent workforce orchestration with human oversight
-
----
-
-# License
-
-**Private Proprietary Software**
-
-© Workforce Manager. All rights reserved.
+Private Proprietary Software
