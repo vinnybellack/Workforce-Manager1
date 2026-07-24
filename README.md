@@ -1,104 +1,263 @@
 # Workforce Manager
 
-Workforce Management & Intelligence Platform
+> **Enterprise Workforce Management & Intelligence Platform for Healthcare Organizations**
 
 ## Overview
 
-Workforce Manager is an enterprise SaaS platform designed for healthcare organizations, hospitals, care homes, and staffing agencies.
+**Workforce Manager** is an enterprise-grade Software-as-a-Service (SaaS) platform designed for healthcare providers, hospitals, care homes, and staffing agencies to efficiently manage their workforce operations.
 
-The platform provides workforce planning, rota scheduling, attendance monitoring, timesheet approvals, leave management, payroll preparation, invoice generation, and workforce intelligence.
-
----
-
-## Core Modules
-
-### Dashboard
-
-Operational KPIs and workforce insights.
-
-### Staff Directory
-
-Staff records, compliance tracking and workforce management.
-
-### Shift Management
-
-Shift creation, assignment and scheduling.
-
-### Attendance Logs
-
-Real-time attendance monitoring and exception tracking.
-
-### Timesheets
-
-Approval workflow, payroll preparation and audit trail.
-
-### Leave Management
-
-Annual leave, sick leave and approval workflows.
-
-### Finance & Invoicing
-
-Payroll calculations, invoice generation and payment tracking.
-
-### Settings & Administration
-
-Departments, roles, permissions and system configuration.
+The platform streamlines the entire workforce lifecycle—from staff onboarding and shift planning to attendance tracking, timesheet approvals, payroll preparation, invoicing, and AI-driven workforce intelligence.
 
 ---
 
-## Technology Stack
+# Core Modules
 
-### Frontend
+### 📊 Dashboard
+
+* Workforce KPIs
+* Operational insights
+* Staffing trends
+* Live workforce overview
+
+### 👥 Staff Directory
+
+* Staff profiles
+* Compliance tracking
+* Qualifications & certifications
+* Employment records
+
+### 📅 Shift Management
+
+* Shift creation & scheduling
+* Staff allocation
+* Shift publishing
+* Conflict detection
+
+### ⏱ Attendance Management
+
+* Real-time attendance
+* Clock-in/Clock-out tracking
+* Late arrivals & exceptions
+* Attendance audit logs
+
+### 📝 Timesheets
+
+* Timesheet submission
+* Multi-level approval workflow
+* Payroll preparation
+* Audit history
+
+### 🌴 Leave Management
+
+* Annual leave
+* Sick leave
+* Leave approvals
+* Leave calendar
+
+### 💰 Finance & Invoicing
+
+* Payroll calculations
+* Invoice generation
+* Payment tracking
+* Financial reporting
+
+### ⚙ Settings & Administration
+
+* Departments
+* Roles & permissions
+* Rate cards
+* System configuration
+
+---
+
+# Technology Stack
+
+## Frontend
 
 * React
-* JavaScript
+* JavaScript (ES6+)
 * React Router
-* CSS
+* CSS3
 
-### Backend
+## Backend
 
 * Node.js
 * Express.js
+* REST APIs
 
-### Database
+## Database
 
 * Supabase
 * PostgreSQL
 
-### AI Layer
+## AI & Intelligence
 
 * Orion Workforce Intelligence
 * Google Gemini AI
+* AI-assisted workforce analytics
+* Predictive staffing insights
 
 ---
 
-## Current Status
+# Current Project Status
 
-### Completed Modules
+## ✅ Completed
 
 * Dashboard
-* Staff Management
+* Staff Directory
 * Shift Management
-* Attendance
+* Attendance Management
 * Timesheets
 * Leave Management
-* Finance
-* Settings
+* Finance Module
+* Settings & Administration
 
-### In Progress
+## 🚧 In Progress
 
-* Invoice Automation
-* Advanced Reporting
-* Orion AI Analytics
-
----
-
-## Architecture
-
-Staff → Shifts → Attendance → Timesheets → Payroll → Invoices
+* Automated Invoice Processing
+* Advanced Workforce Reporting
+* Orion AI Workforce Analytics
+* Intelligent Scheduling Recommendations
 
 ---
 
-## License
+# System Workflow
 
-Private Proprietary Software
+```text
+Staff Directory
+        │
+        ▼
+Shift Planning
+        │
+        ▼
+Attendance Tracking
+        │
+        ▼
+Timesheet Approval
+        │
+        ▼
+Payroll Processing
+        │
+        ▼
+Invoice Generation
+        │
+        ▼
+Reporting & Analytics
+```
+
+---
+
+# Project Architecture
+
+```text
+                    Workforce Manager
+
+                           │
+          ┌────────────────┼────────────────┐
+          │                │                │
+          ▼                ▼                ▼
+
+   Staff Management   Shift Management   Finance
+
+          │                │                │
+          └────────────┬───┴───────────────┘
+                       ▼
+
+                Attendance Engine
+                       │
+                       ▼
+
+              Timesheet Processing
+                       │
+                       ▼
+
+               Payroll Preparation
+                       │
+                       ▼
+
+                Invoice Generation
+                       │
+                       ▼
+
+            Workforce Intelligence
+```
+
+---
+
+# AI Roadmap (Future Enhancements)
+
+The long-term vision is to evolve Workforce Manager into an **Agentic AI Workforce Platform**, where specialized AI agents collaborate to automate workforce operations while keeping humans in control of critical decisions.
+
+## Technologies to Explore
+
+* **LangGraph** — Durable workflow orchestration and state management for long-running AI workflows.
+* **OpenAI Agents SDK** — Agent orchestration with handoffs, guardrails, memory, and tracing.
+* **CrewAI** — Multi-agent collaboration for specialized workforce tasks.
+* **Browser Use** — Browser automation for interacting with third-party workforce systems.
+* **ChatDev** — Multi-agent software collaboration patterns.
+* **Agentic Playground** — Experimentation and deployment of production-ready AI agents.
+
+---
+
+# Future Agentic Architecture
+
+```text
+                    Hospital Administrator
+                             │
+                             ▼
+                  Workforce Planning Agent
+                             │
+        ┌────────────┬────────────┬────────────┐
+        ▼            ▼            ▼            ▼
+  Roster Agent   Staff Agent  Payroll Agent  Leave Agent
+        │            │            │            │
+        └────────────┴──────┬─────┴────────────┘
+                             ▼
+                  Compliance Validation Agent
+                             │
+                             ▼
+                  Notification & Communication Agent
+                             │
+                             ▼
+                     Human Approval Workflow
+                             │
+                             ▼
+                      Shift Publication Engine
+```
+
+---
+
+# Key Features
+
+* Enterprise SaaS Architecture
+* Healthcare Workforce Management
+* Multi-role Access Control
+* Real-time Workforce Visibility
+* Attendance Monitoring
+* Payroll Preparation
+* Invoice Management
+* Compliance Tracking
+* AI-powered Workforce Intelligence
+* Scalable & Modular Design
+
+---
+
+# Future Vision
+
+The platform aims to become an AI-powered workforce management ecosystem capable of:
+
+* Intelligent shift planning
+* Predictive staffing recommendations
+* Automated compliance validation
+* AI-assisted payroll verification
+* Workforce forecasting and analytics
+* Natural language workforce interactions
+* Autonomous multi-agent workforce orchestration with human oversight
+
+---
+
+# License
+
+**Private Proprietary Software**
+
+© Workforce Manager. All rights reserved.
