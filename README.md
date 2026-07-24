@@ -1,119 +1,232 @@
 # Workforce Manager
+
+> **Enterprise Workforce Management & Intelligence Platform for Healthcare Staffing, Workforce Planning, Payroll, Finance, and AI-Powered Operations.**
+
+[![AI Workforce Operator](https://img.shields.io/badge/🤖-AI%20Workforce%20Operator-0A84FF?style=for-the-badge)]
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=white)]
+[![Supabase](https://img.shields.io/badge/Supabase-Backend-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)]
+[![Status](https://img.shields.io/badge/Status-Active%20Development-success?style=for-the-badge)]
+[![License](https://img.shields.io/badge/License-Private-red?style=for-the-badge)]
+[![Implementation](https://img.shields.io/badge/Implementation-Available%20on%20Request-purple?style=for-the-badge)]
+
+**Platform Modules** · Dashboard · Staff Management · Shift Scheduling · Rota Planning · Attendance · Timesheets · Leave Management · Payroll · Finance · Invoicing · Reporting · AI Workforce Operator
+
+**Business Capabilities** · Workforce Planning · Staff Allocation · Compliance Management · Payroll Processing · Client Billing · Attendance Tracking · Workforce Analytics · AI-Assisted Operations · Operational Intelligence
+
+**Industries** · Hospitals · Healthcare Networks · Care Homes · Home Care Providers · Nursing Agencies · Staffing Agencies · Allied Healthcare · Community Care · Temporary Workforce Providers
+
+---
+
 ## Version
 
-Initial Project Setup
-Healthcare Workforce Management & Intelligence Platform
+**Initial Enterprise SaaS Release**
+
+---
 
 ## Overview
 
-Workforce Manager is an enterprise SaaS platform designed for healthcare organizations, hospitals, care homes, and staffing agencies.
+**Workforce Manager** is an enterprise SaaS platform built for healthcare organizations, hospitals, care homes, nursing agencies, and staffing providers.
 
-The platform provides workforce planning, rota scheduling, attendance monitoring, timesheet approvals, leave management, payroll preparation, invoice generation, and workforce intelligence.
-<img width="1915" height="938" alt="image" src="https://github.com/user-attachments/assets/3b05ad32-30f8-40f2-bda4-aec81afbb80b" />
+The platform centralizes workforce planning, shift scheduling, rota management, attendance tracking, leave approvals, payroll preparation, invoicing, finance operations, and workforce intelligence into a single modern application.
 
----
-# Mercy Workforce Manager
+Designed for enterprise healthcare operations, the platform improves operational efficiency, workforce visibility, compliance, and financial management.
 
-## 🚀 Live AI Operator Demo
-
-> **Try the interactive AI Operator prototype**
-
-[![Launch Demo](https://img.shields.io/badge/🚀-Launch%20Demo-blue?style=for-the-badge)](https://vinnybellack.github.io/workforce-manager/)
-## AI Operator Prototype
-
-👉 [Launch Mercy AI Operator Prototype](./Mercy_AI_Executive_Glassmorphism.html)
-
-<img width="1907" height="917" alt="image" src="https://github.com/user-attachments/assets/c4a3bf63-0106-4b1e-8476-e7073398050a" />
-👉 **[🚀 Open Live Interactive Demo](https://vinnybellack.github.io/workforce-manager/docs/Mercy_AI_Executive_Glassmorphism.html)**
-## Core Modules
-
-### Dashboard
-
-Operational KPIs and workforce insights.
-
-### Staff Directory
-
-Staff records, compliance tracking and workforce management.
-
-### Shift Management
-
-Shift creation, assignment and scheduling.
-
-### Attendance Logs
-
-Real-time attendance monitoring and exception tracking.
-
-### Timesheets
-
-Approval workflow, payroll preparation and audit trail.
-
-### Leave Management
-
-Annual leave, sick leave and approval workflows.
-
-### Finance & Invoicing
-
-Payroll calculations, invoice generation and payment tracking.
-
-### Settings & Administration
-
-Departments, roles, permissions and system configuration.
+<img width="1915" height="938" alt="Workforce Manager Dashboard" src="https://github.com/user-attachments/assets/3b05ad32-30f8-40f2-bda4-aec81afbb80b" />
 
 ---
 
-## Technology Stack
+# 🤖 Mercy AI Workforce Operator
 
-### Frontend
+### Next-Generation Agentic Voice AI
 
-* React
-* JavaScript
-* React Router
-* CSS
+The **Mercy AI Workforce Operator** is an AI-powered voice assistant that enables healthcare organizations to manage workforce operations using natural language.
 
-### Backend
+Users can simply ask the AI to create shifts, allocate staff, approve timesheets, retrieve workforce insights, generate reports, or answer operational questions. The AI understands user intent, plans the required workflow, securely executes actions across multiple modules, and provides real-time confirmations.
 
-* Node.js
-* Express.js
+### Key Capabilities
 
-### Database
+- 🎤 Voice-based workforce operations
+- 🤖 Agentic AI workflow execution
+- 📅 Shift creation and scheduling
+- 👥 Intelligent staff allocation
+- ✅ Timesheet approvals
+- 💰 Payroll assistance
+- 📊 Executive dashboards & analytics
+- 📄 Report generation
+- 🔐 Enterprise security & audit trails
 
-* Supabase
-* PostgreSQL
-
-### AI Layer
-
-* Orion Workforce Intelligence
-* Google Gemini AI
+> **Note:** The production implementation of the Mercy AI Workforce Operator is maintained in a private repository. Demonstrations and implementation details are available upon request.
 
 ---
 
-## Current Status
+# 🚀 Live AI Operator Prototype
 
-### Completed Modules
+Experience the interactive prototype demonstrating the future of AI-driven workforce management.
 
-* Dashboard
-* Staff Management
-* Shift Management
-* Attendance
-* Timesheets
-* Leave Management
-* Finance
-* Settings
+[![Launch Live Demo](https://img.shields.io/badge/🚀-Launch%20Live%20Demo-blue?style=for-the-badge)](https://vinnybellack.github.io/workforce-manager/docs/Mercy_AI_Executive_Glassmorphism.html)
 
-### In Progress
+or run locally
 
-* Invoice Automation
-* Advanced Reporting
-* Orion AI Analytics
+👉 **[Mercy AI Executive Prototype](./Mercy_AI_Executive_Glassmorphism.html)**
+
+<img width="1907" height="917" alt="Mercy AI Workforce Operator" src="https://github.com/user-attachments/assets/c4a3bf63-0106-4b1e-8476-e7073398050a" />
 
 ---
 
-## Architecture
+# Core Modules
 
-Staff → Shifts → Attendance → Timesheets → Payroll → Invoices
+## Dashboard
+
+Operational KPIs, workforce utilization, staffing levels, compliance monitoring, and executive insights.
+
+## Staff Directory
+
+Centralized employee management, certifications, compliance, contracts, and workforce profiles.
+
+## Shift Management
+
+Shift creation, scheduling, assignment, and workforce allocation.
+
+## Attendance
+
+Real-time attendance monitoring, exception handling, and audit history.
+
+## Timesheets
+
+Digital approvals, payroll preparation, and complete audit trails.
+
+## Leave Management
+
+Annual leave, sick leave, emergency leave, approvals, and balances.
+
+## Payroll
+
+Payroll preparation using approved timesheets, overtime calculations, and configurable pay rules.
+
+## Finance & Invoicing
+
+Client invoicing, payment tracking, finance approvals, and reconciliation.
+
+## Reporting & Analytics
+
+Operational dashboards, workforce intelligence, finance reports, and executive analytics.
+
+## Administration
+
+Departments, roles, permissions, locations, settings, and platform administration.
 
 ---
 
-## License
+# Technology Stack
 
-Private Proprietary Software
+## Frontend
+
+- React
+- JavaScript
+- React Router
+- CSS
+
+## Backend
+
+- Node.js
+- Express.js
+
+## Database
+
+- Supabase
+- PostgreSQL
+
+## AI Layer
+
+- Google Gemini
+- Agentic AI Workflows
+- Voice AI
+- Workflow Automation
+- Workforce Intelligence
+
+---
+
+# Current Status
+
+## ✅ Completed
+
+- Dashboard
+- Staff Management
+- Shift Management
+- Attendance
+- Timesheets
+- Leave Management
+- Payroll
+- Finance
+- Reporting
+- Administration
+
+## 🚧 In Progress
+
+- Invoice Automation
+- Executive Reporting
+- AI Workforce Insights
+- Voice AI Integration
+- Predictive Workforce Planning
+
+---
+
+# Platform Architecture
+
+```
+Staff Directory
+       │
+       ▼
+Shift Scheduling
+       │
+       ▼
+Attendance
+       │
+       ▼
+Timesheets
+       │
+       ▼
+Payroll
+       │
+       ▼
+Finance & Invoicing
+       │
+       ▼
+Analytics & Reporting
+       │
+       ▼
+Mercy AI Workforce Operator
+```
+
+---
+
+# Business Benefits
+
+- Reduce manual workforce administration
+- Improve staff utilization
+- Streamline payroll preparation
+- Accelerate invoice generation
+- Improve workforce visibility
+- Ensure regulatory compliance
+- Enable AI-assisted operational decision making
+- Support enterprise-scale healthcare workforce operations
+
+---
+
+# Repository Availability
+
+This repository showcases the architecture, user interface, workflows, and capabilities of the **Workforce Manager** platform.
+
+The complete production implementation—including backend services, database schema, APIs, AI workflows, deployment configuration, and supporting documentation—is maintained in a private repository.
+
+**Project implementation, technical documentation, and demonstration materials are available upon request for recruiters, hiring managers, academic reviewers, and potential collaborators.**
+
+---
+
+# License
+
+**Private Proprietary Software**
+
+Copyright © 2026. All Rights Reserved.
+
+This repository is provided for portfolio and demonstration purposes only. Redistribution, modification, or commercial use is prohibited without prior written permission.
