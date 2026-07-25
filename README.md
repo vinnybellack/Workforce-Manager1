@@ -31,7 +31,7 @@ The platform centralizes workforce planning, shift scheduling, rota management, 
 
 Designed for enterprise healthcare operations, the platform improves operational efficiency, workforce visibility, compliance, and financial management.
 
-<img width="1915" height="938" alt="Workforce Manager Dashboard" src="https://github.com/user-attachments/assets/3b05ad32-30f8-40f2-bda4-aec81afbb80b" />
+![Workforce Manager](Workfo.png)
 
 ---
 
@@ -69,7 +69,7 @@ or run locally
 
 👉 **[Mercy AI Executive Prototype](./Mercy_AI_Executive_Glassmorphism.html)**
 
-<img width="1907" height="917" alt="Mercy AI Workforce Operator" src="https://github.com/user-attachments/assets/c4a3bf63-0106-4b1e-8476-e7073398050a" />
+![AI-Enhanced Workforce Management](AI-mercy.png)
 
 ---
 
