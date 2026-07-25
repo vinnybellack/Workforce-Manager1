@@ -1,7 +1,7 @@
 # Workforce Manager
 
 > **Enterprise Workforce Management & Intelligence Platform for Healthcare Staffing, Workforce Planning, Payroll, Finance, and AI-Powered Operations.**
-
+> **Note:** The production implementation of the Mercy AI Workforce Operator is maintained in a private repository. Demonstrations and implementation details are available upon request.
 [![AI Workforce Operator](https://img.shields.io/badge/🤖-AI%20Workforce%20Operator-0A84FF?style=for-the-badge)]
 [![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=white)]
 [![Supabase](https://img.shields.io/badge/Supabase-Backend-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)]
@@ -55,7 +55,6 @@ Users can simply ask the AI to create shifts, allocate staff, approve timesheets
 - 📄 Report generation
 - 🔐 Enterprise security & audit trails
 
-> **Note:** The production implementation of the Mercy AI Workforce Operator is maintained in a private repository. Demonstrations and implementation details are available upon request.
 
 ---
 
