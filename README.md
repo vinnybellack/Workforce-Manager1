@@ -1,13 +1,15 @@
 # Workforce Manager
 
 > **Enterprise Workforce Management & Intelligence Platform for Healthcare Staffing, Workforce Planning, Payroll, Finance, and AI-Powered Operations.**
+
 > **Note:** The production implementation of the Mercy AI Workforce Operator is maintained in a private repository. Demonstrations and implementation details are available upon request.
-[![AI Workforce Operator](https://img.shields.io/badge/🤖-AI%20Workforce%20Operator-0A84FF?style=for-the-badge)]
-[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=white)]
-[![Supabase](https://img.shields.io/badge/Supabase-Backend-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)]
-[![Status](https://img.shields.io/badge/Status-Active%20Development-success?style=for-the-badge)]
-[![License](https://img.shields.io/badge/License-Private-red?style=for-the-badge)]
-[![Implementation](https://img.shields.io/badge/Implementation-Available%20on%20Request-purple?style=for-the-badge)]
+
+![AI Workforce Operator](https://img.shields.io/badge/🤖-AI%20Workforce%20Operator-0A84FF?style=for-the-badge)
+![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-Backend-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Active%20Development-success?style=for-the-badge)
+![License](https://img.shields.io/badge/License-Private-red?style=for-the-badge)
+![Implementation](https://img.shields.io/badge/Implementation-Available%20on%20Request-purple?style=for-the-badge)
 
 **Platform Modules** · Dashboard · Staff Management · Shift Scheduling · Rota Planning · Attendance · Timesheets · Leave Management · Payroll · Finance · Invoicing · Reporting · AI Workforce Operator
 
